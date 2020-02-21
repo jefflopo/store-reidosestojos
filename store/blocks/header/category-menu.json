@@ -1,0 +1,205 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      
+      "menu-item#category-contato",
+      "menu-item#category-minha-conta"
+    ]
+  },
+  "menu-item#category-contato": {
+    "props": {
+      "id": "menu-item-category-contato",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      },
+      "blockClass": "menu-contato"
+    }
+  },
+  "menu-item#category-minha-conta": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
+      },
+      "blockClass": "menu-minha-conta"
+    }
+  },
+  "menu-item#mobile-category-estojos": {
+    "props": {
+      "id": "estojos-category-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "tagTitle": "Estojos",
+        "text": "Estojos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-category-estojos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-category-estojos": {
+    "children": [
+      "menu-item#estojos-clothing"
+    ]
+  },
+  "menu-item#estojos-clothing": {
+    "props": {
+      "id": "menu-item-estojos-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#mobile-category-porta-joias": {
+    "props": {
+      "id": "porta-joias-category-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "tagTitle": "Porta Jóias",
+        "text": "Porta Jóias"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-category-porta-joias"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-category-porta-joias": {
+    "children": [
+      "menu-item#porta-joias1"
+    ]
+  },
+  "menu-item#porta-joias1": {
+    "props": {
+      "id": "menu-item-porta-joias1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Porta - Joias 1",
+        "text": "Porta - Joias 1"
+      }
+    }
+  },
+  "menu-item#estojos-accessories": {
+    "props": {
+      "id": "menu-item-estojos-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#estojos-eyeglasses": {
+    "props": {
+      "id": "menu-item-estojos-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  }
+}

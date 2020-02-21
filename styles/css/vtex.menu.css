@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1024px) {
+    .menuItem--menu-departamentos {
+        /* width: 200px;
+        height: 34px;
+        left: 321px;
+        top: 114px;
+        background: #2C296A;
+        border-radius: 40px; */
+    }
+
+    .styledLink--menu-contato::before {
+        background-image: url('/arquivos/icon_telephone.png');
+        background-repeat: no-repeat;
+        width: 17px;
+        height: 17px;
+        content: '';
+        display: flex;
+    }
+
+    .styledLink--menu-minha-conta::before {
+        background-image: url('/arquivos/user.png');
+        background-repeat: no-repeat;
+        width: 17px;
+        height: 17px;
+        content: '';
+        display: block;
+    }   
+}

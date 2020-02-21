@@ -1,0 +1,127 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "TeleVendas: 55 4455-5544"
+    }
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "logo#desktop",
+      "search-bar",
+      "vtex.menu@2.x:menu#category-menu",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": false,
+      "blockClass": "main-header"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://reidosestojos.vteximg.com.br/arquivos/logo.png",
+      "width": "180"
+    }
+  },
+  "header-row#3-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "header-spacer"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "inverted": "true"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile",
+      "header-row#2-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "header-row#2-mobile": {
+		"children": [
+			"search-bar"
+		],
+		"props": {
+      "sticky": true,
+			"blockClass": "search-mobile",
+			"inverted": "true"
+		}
+	},
+
+  "drawer": {
+    "children": [
+      "header-row#search-bar",
+      "menu#drawer"
+    ]
+  },
+
+  "header-row#search-bar": {
+    "children": ["search-bar"]
+  },
+
+  "flex-layout.row#menu-icons": {
+		"props": {
+			"blockClass": "user-menu"
+		},
+		"children": [
+      "login",
+      "login",
+			"minicart.v2"
+		]
+	},
+
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#mobile-category-estojos",
+      "menu-item#mobile-category-porta-joias",
+      "menu-item#category-minha-conta",
+      "flex-layout.row#menu-icons"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://reidosestojos.vteximg.com.br/arquivos/logo-mobile.png"
+    }
+  }
+}

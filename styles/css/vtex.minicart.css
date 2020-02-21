@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1023px) 
+{
+    .minicartWrapperContainer {
+        width: 60px;
+    }
+    .minicartQuantityBadge {
+        background: #2C296A;
+    }
+    
+    .minicartIconContainer {
+        color: #F8991F;
+    }
+    
+    .closeIcon {
+        color: #2C296A;
+        border-radius: 2px;
+    }
+    
+    .minicartTitle {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 134.4%;
+        color: #F8991F;
+        width: 39px;
+        height: 24px;
+    }
+    
+    .minicartCheckOutButton {
+        width: 250px;
+        height: 38px;
+        left: 55px;
+        top: 513px;
+        background: #0DEF83;
+        border-radius: 457px;
+        border: 1px solid #DFDFDF;
+    }
+}
+
+@media only screen and (min-width: 1024px)
+{
+    .cartIcon {
+        color: #F8991F;
+    }
+}
+

@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1024px) 
+{
+  .headerRowBackground {
+    background-color: #FFF;
+  }
+
+  .headerRow :global(.vtex-menu-2-x-styledLink) {
+    color: #2C296A;
+  }
+
+  .headerRow--menu-contato::before {
+    content: '';
+    background-image: url('/arquivos/telephone_img.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .headerRow--menu-link :global(.vtex-menu-2-x-styledLink) {
+    font-weight: 500;
+    font-size: 13px;
+    color: #2C296A;
+    line-height: 16px;
+  }
+
+  .headerStickyRow {
+    margin: 0 auto;
+  }
+  
+  .headerRowContainer--main-header {
+    background-color: #FFF;
+  }  
+}
+
+@media only screen and (max-width: 1023px)
+{
+  .headerRow :global(.vtex-menu-2-x-styledLink) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+     color: #FFF;/*#2C296A*/
+  }
+  
+  .headerRow--main-header .headerRowBackground {
+    background-color: #F0F0F0;
+  }
+  
+  .headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
+    width: 82px;
+      height: 15px;
+      left: 1311px;
+      top: 45px;
+  
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height */
+      color: #F8991F;
+  }
+  
+  .headerRow--main-header-mobile .headerRowBackground {
+    background-color: #FFF;
+    padding: 0px;/*10px 0px*/
+    height: 100px;
+  }
+}
+
+

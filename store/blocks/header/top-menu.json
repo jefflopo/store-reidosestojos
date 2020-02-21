@@ -1,0 +1,119 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#departamentos",
+      "menu-item#estojos",
+      "menu-item#mostruario",
+      "menu-item#expositores",
+      "menu-item#balancas-de-precisao",
+      "menu-item#ferramentas",
+      "menu-item#saquinhos"
+    ]
+  },
+  "menu-item#departamentos": {
+    "props": {
+      "id": "menu-item-departamentos",
+      "type": "custom",
+      "iconId":null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      },
+      "blockClass": "menu-departamentos"
+    }
+  },
+  "menu-item#estojos": {
+    "props": {
+      "id": "menu-item-estojos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Estojos",
+        "text": "Estojos"
+      }
+    }
+  },
+  "menu-item#mostruario": {
+    "props": {
+      "id": "menu-item-mostruario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mostruario",
+        "noFollow": false,
+        "tagTitle": "Mostruários",
+        "text": "Mostruários"
+      }
+    }
+  },
+  "menu-item#expositores": {
+    "props": {
+      "id": "menu-item-expositores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/expositores",
+        "noFollow": false,
+        "tagTitle": "Expositores",
+        "text": "Expositores"
+      }
+    }
+  },
+  "menu-item#balancas-de-precisao": {
+    "props": {
+      "id": "menu-item-balancas-de-precisao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/balancas-de-precisao",
+        "noFollow": false,
+        "tagTitle": "Balanças de Precisão",
+        "text": "Balanças de Precisão"
+      }
+    }
+  },
+  "menu-item#ferramentas": {
+    "props": {
+      "id": "menu-item-ferramentas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas",
+        "noFollow": false,
+        "tagTitle": "Ferramentas",
+        "text": "Ferramentas"
+      }
+    }
+  },
+  "menu-item#saquinhos": {
+    "props": {
+      "id": "menu-item-saquinhos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/saquinhos",
+        "noFollow": false,
+        "tagTitle": "Saquinhos",
+        "text": "Saquinhos"
+      }
+    }
+  }
+}

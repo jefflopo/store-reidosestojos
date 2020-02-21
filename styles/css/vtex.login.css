@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1023px) 
+{
+    .container {
+        width: 200px;
+    }
+    .label {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0px; /*12px*/
+        line-height: 15px;
+        color: #F8991F;
+        display: inline-block;
+        white-space: pre-wrap;
+        color: transparent;
+        padding: 0;
+        width: 0;
+    }
+    
+    .label::after {
+        background-image: url('https://reidosestojos.vtexassets.com/arquivos/user.png');
+        background-repeat: no-repeat;
+        display: block;
+        content: ' ';
+        width: 18px;
+        height: 18px;
+        left: 238px;
+        top: 14px;
+        margin-top: -16px;
+        margin-left: 70px;
+        margin-right: -19px;
+        border: none;
+    }
+}
+
